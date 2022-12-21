@@ -1,1 +1,77 @@
 /*Schrijf hier jouw css*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* Colors:
+
+Space Cadet: #151E3F
+Oxford Blue: ##030027
+Beige: #F2F3D9
+Antique Brass: #DC9E82
+Fuzzy Wuzzy: #C16E70
+ */
+
+/* Opdracht 3.2, nav-balk */
+
+/*nav {
+    background-color: #000;
+    width: 100vw;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+    flex-basis: 100%;
+}
+
+/*
+
+/* hier begint opdracht 3.1 */
+
+body {
+    background-color: #F2F3D9;
+    color: #151E3F;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+
+}
+
+.title-and-boxes {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 880px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    text-align: center;
+
+
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 350px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+article {
+    flex-basis: 280px;
+    background-color: #DC9E82;
+    flex-shrink: 1;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+
